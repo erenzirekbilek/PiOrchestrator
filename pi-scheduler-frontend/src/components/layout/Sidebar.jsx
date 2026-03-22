@@ -11,7 +11,7 @@ export default function Sidebar() {
   return (
     <aside className="w-56 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col">
       <div className="p-5 text-lg font-semibold text-gray-900 dark:text-white">
-        Pi Scheduler
+        Pi Orchestrator
       </div>
       <nav className="flex-1 p-3 space-y-1">
         {links.map(({ to, icon: Icon, label }) => (
