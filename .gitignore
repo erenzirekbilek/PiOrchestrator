@@ -1,0 +1,178 @@
+# ─────────────────────────────────────────
+#  PYTHON / DJANGO
+# ─────────────────────────────────────────
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env_folder/
+
+# Environment variables — ASLA commit'leme
+.env
+.env.local
+.env.production
+
+# Django
+*.log
+*.pot
+db.sqlite3
+db.sqlite3-journal
+pischeduler.db
+pischeduler.log
+media/
+staticfiles/
+
+# Migrations (opsiyonel — takıma göre karar ver)
+# apps/*/migrations/*.py
+# !apps/*/migrations/__init__.py
+
+# Alembic (FastAPI versiyonu için)
+migrations/versions/*.py
+!migrations/versions/.gitkeep
+
+# Coverage / test
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pyright
+pyrightconfig.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+wheels/
+
+# PyInstaller
+*.spec
+
+# ─────────────────────────────────────────
+#  REACT / NODE / VITE
+# ─────────────────────────────────────────
+
+# Bağımlılıklar
+node_modules/
+
+# Vite build çıktısı
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+# Ortam dosyaları
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# npm / yarn logları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock file (hangisini kullanıyorsan diğerini ekle)
+# package-lock.json   # npm kullanıyorsan bunu yorum satırına al
+# yarn.lock           # yarn kullanıyorsan bunu yorum satırına al
+
+# Storybook
+storybook-static/
+.storybook/
+
+# Test
+coverage/
+.vitest/
+
+# ─────────────────────────────────────────
+#  İŞLETİM SİSTEMİ
+# ─────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encdata
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ─────────────────────────────────────────
+#  EDİTÖR / IDE
+# ─────────────────────────────────────────
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (PyCharm, WebStorm vb.)
+.idea/
+*.iml
+*.iws
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ─────────────────────────────────────────
+#  RASPBERRY PI / DONANIM
+# ─────────────────────────────────────────
+
+# GPIO log dosyaları
+gpio_*.log
+
+# Pi'ye özgü config (production secrets)
+config/production.py
+config/local.py
+
+# ─────────────────────────────────────────
+#  GÜVENLİK — KESİNLİKLE COMMIT'LEME
+# ─────────────────────────────────────────
+
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service-account.json
